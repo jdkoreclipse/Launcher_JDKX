@@ -123,6 +123,7 @@ public class AppWidgetResizeFrame extends FrameLayout {
         mWidgetPaddingTop = p.top;
         mWidgetPaddingRight = p.right;
         mWidgetPaddingBottom = p.bottom;
+        mResizeMode = AppWidgetProviderInfo.RESIZE_BOTH;        
 
         if (mResizeMode == AppWidgetProviderInfo.RESIZE_HORIZONTAL) {
             mTopHandle.setVisibility(GONE);
